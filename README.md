@@ -18,3 +18,4 @@ For this task you can assume that:
 * we only cope with plaintext mails (no html content e-mails)
 * you will have to handle all weird sorts of quotation styles that mail clients may or may not use.
 * users may mix their replies with the quoted parts (meaning they reply individually to each paragraph)
+* This project is configured for Java 7 as default - but you may change this to Java 8 if you like. 
