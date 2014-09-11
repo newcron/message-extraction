@@ -1,0 +1,14 @@
+Sure it is there. When do you want to pick it up?
+
+> Dear User!
+>
+> Somebody wants to buy this item from you:
+> 'Ticket for the next game.'
+> Ad Id: 46703318
+>
+> Message from: Max
+>
+> Hello! I just saw this ticket and wanted to ask if it is still available?
+>
+> Copyright © 2005-2014 eBay International AG. All rights reserved
+> Help | Privacy | Terms of use |  Imprint |  Press |  Contact us

@@ -10,7 +10,7 @@ import static com.ebay.classifieds.germany.SampleReader.readFileContents;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class ExampleTest {
+public class MailDifferTest {
 
     private MessageExtractor messageExtractor = new MessageExtractor();
 
@@ -18,11 +18,24 @@ public class ExampleTest {
     public void stripsStandardTemplate() throws IOException {
 
         Mail input = new Mail(
-                readFileContents("/sample-first-mail.txt"),
+                readFileContents("/mail-1.txt"),
                 BUYER);
 
+        // THIS ONE IS FAILING -> MAKE IT PASS
         assertThat(messageExtractor.extractText(input, new Stack<Mail>()),
                 is("Hello! I just saw this ticket and wanted to ask if it is still available?"));
     }
+
+    @Test
+    public void diffMail_1_With_2() {
+       // ....
+    }
+
+    /*
+         Go on with more tests, refactor everything you like (TEST-CLASSES + PRODUCTION CODE)
+     */
+
+
+
 
 }
