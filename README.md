@@ -15,7 +15,9 @@ We want to see your approach and considerations as well as your style of work. (
 
 For this task you can assume that:
 
+* you can use any libraries you want (pom.xml)
 * we only cope with plaintext mails (no html content e-mails)
+* conversations will always be a ping pong: message from A -> message from B -> message from A. (not something like Message from A -> message from A -> message from B)
 * you will have to handle all weird sorts of quotation styles that mail clients may or may not use.
 * users may mix their replies with the quoted parts (meaning they reply individually to each paragraph)
 * This project is configured for Java 7 as default - but you may change this to Java 8 if you like. 
